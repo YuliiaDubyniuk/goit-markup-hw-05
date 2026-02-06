@@ -568,7 +568,7 @@ img {
 
 .form-field {
   margin-bottom: 8px;
-  padding: none;
+  line-height: 0;
 }
 
 .modal-form > .form-field:nth-child(4) {
@@ -641,11 +641,6 @@ img {
   fill: var(--iris);
 }
 
-.form-label-agreement {
-  display: flex;
-  align-items: center;
-  column-gap: 8px;
-}
 
 .custom-checkbox {
   display: inline-flex;
@@ -653,6 +648,7 @@ img {
   justify-content: center;
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   fill: transparent;
